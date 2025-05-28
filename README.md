@@ -13,4 +13,8 @@ To run the experiments in this repository, you need *numpy*, *networkx*, *scikit
 - `IM_spread_LDP_eps.py` is used to obtain the results of influence maximization under different privacy budgets.
 - `IM_spread_LDP_win.py` is used to obtain the results of influence maximization under different sliding windows.
 ## Running
-
+you can run experiments with `python {file name}.py`. For example,
+```python
+python main.py
+```
+## Citation
