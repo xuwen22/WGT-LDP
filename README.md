@@ -1,9 +1,15 @@
 # WGT-LDP
-Implementation of WGT-LDP
+This is the code repository for our paper "Continuous Publication of Weighted Graphs with Local Differential Privacy". 
 ## Requirements
-To run the experiments in this repository, you need *numpy*, *networkx*, *scikit-learn*.
+To run the experiments in this repository, you need *numpy*, *networkx*, *scikit-learn*. You can install all the packages is through conda and pip:
+```python
+pip install numpy
+pip install networkx
+pip install scikit-learn
+```
 ## File Contents
 - `data` is the folder with all datasets.
+  - `EmailDept1_LDP` 
 - `result` is the folder for storing synthesized weighted graph (.txt format), including two examples.
 - `main.py` is the file used to run the WGT-LDP framework with different privacy budgets.
 - `main_vary_w.py` is the file used to run the WGT-LDP framework with different sliding windows.
