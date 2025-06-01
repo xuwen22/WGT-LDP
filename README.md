@@ -9,7 +9,7 @@ pip install scikit-learn
 ```
 ## File Contents
 - `data` is the folder with all datasets.
-  - `EmailDept1_LDP` 
+  - `EmailDept1_LDP` is the Email-Eu dataset in our paper, which contains dynamic communications between 319 nodes over 173 time steps.
 - `result` is the folder for storing synthesized weighted graph (.txt format), including two examples.
 - `main.py` is the file used to run the WGT-LDP framework with different privacy budgets.
 - `main_vary_w.py` is the file used to run the WGT-LDP framework with different sliding windows.
