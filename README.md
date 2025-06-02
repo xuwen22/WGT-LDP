@@ -13,8 +13,8 @@ pip install scikit-learn
   - `Forum_LDP` is the Forum dataset in our paper, which contains dynamic interaction records between 899 students over 24 time steps.
   - `Tech_LDP` is the Tech-AS dataset in our paper, which contains dynamic connections between 5000 autonomous systems over 24 time steps.
 - `result` is the folder for storing synthesized weighted graph (.txt format), including two examples.
-    -`SynGraph_Save` stores the average results of ten runs on the Forum dataset when the privacy budget is 1.
-    -`SynGraph_Save_vary_w` stores the average results of ten runs on the Forum dataset when the di!erent sliding window size is 6.
+  - `SynGraph_Save` stores the average results of ten runs on the Forum dataset when the privacy budget is 1.
+  - `SynGraph_Save_vary_w` stores the average results of ten runs on the Forum dataset when the di!erent sliding window size is 6.
 - `main.py` is the file used to run the WGT-LDP framework with different privacy budgets.
 - `main_vary_w.py` is the file used to run the WGT-LDP framework with different sliding windows.
 - `main_event.py` is the file used to run the WGT-LDP framework with event-level privacy.
